@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'sjsh_dates'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_sjshdates_tbldates">Date</label>
+			<label index="tx_sjshdates_tbldates.name">name</label>
+			<label index="tx_sjshdates_tbldates.ausrichter">ausrichter</label>
+			<label index="tx_sjshdates_tbldates.begin">begin</label>
+			<label index="tx_sjshdates_tbldates.end">end</label>
+			<label index="tx_sjshdates_tbldates.location">location</label>
+			<label index="tx_sjshdates_tbldates.url">url</label>
+			<label index="tx_sjshdates_tbldates.sh">sh</label>
+			<label index="tt_content.list_type_pi1">AllDates</label>
+			<label index="tt_content.list_type_pi2">DateTeaserSH</label>
+		</languageKey>
+	</data>
+</T3locallang>

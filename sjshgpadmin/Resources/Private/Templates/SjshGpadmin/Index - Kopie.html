@@ -1,0 +1,19 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://xsd.helmut-hummel.de/ns/TYPO3/CMS/Fluid/ViewHelpers">
+	<f:layout name="Default"/>
+	<title>Templates: Index</title>
+	<f:section name="main">
+		<f:form action="save" name="save">
+			<f:for each="{aks}" as="altersklasse">
+				<h4>{altersklasse}</h4>
+					<f:for each="{place}" as="platz">
+						{platz.place}. 
+						<f:form.textfield name="Spieler_Vorname_{altersklasse}_{platz.place}" />
+						<f:form.textfield name="Spieler_Nachname_{altersklasse}_{platz.place}" />
+						<f:form.textfield name="Verein_{altersklasse}_{platz.place}" /><br/>
+					
+				</f:for>
+			<f:form.submit name="submit" value="Speichern" />
+		</f:form>
+	</f:section>
+</div>

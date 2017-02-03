@@ -1,0 +1,23 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://xsd.helmut-hummel.de/ns/TYPO3/CMS/Fluid/ViewHelpers">
+	<f:layout name="Default"/>
+	<title>Templates: Index</title>
+	<f:section name="main">
+		<f:form action="save">
+			<f:form.select name="tournament" property="tournament" options="{tournaments}" optionLabelField="name" optionValueField="id" />
+			<f:for each="{aks}" as="ak">
+				<h2>{ak}</h2>
+				<f:for each="{players}" as="player" iteration="itarator">
+					{player.place}.
+					<f:form.hidden name="ak[]" value="{ak}"/>
+					<f:form.hidden name="place[]" value="{player.place}"/>
+					<f:form.textfield name="firstname[]" />
+					<f:form.textfield name="lastname[]" />
+					<f:form.textfield name="club[]" />
+					<br/>
+				</f:for>
+			</f:for>
+			<f:form.submit name="submit" value="Speichern" />
+		</f:form>
+	</f:section>
+</div>

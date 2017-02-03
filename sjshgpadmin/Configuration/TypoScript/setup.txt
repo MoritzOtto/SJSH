@@ -1,0 +1,12 @@
+
+ # Module configuration
+module.tx_sjshgpadmin {
+	persistence {
+		storagePid = {$module.tx_sjshgpadmin.persistence.storagePid}
+	}
+	view {
+		templateRootPath = {$module.tx_sjshgpadmin.view.templateRootPath}
+		partialRootPath = {$module.tx_sjshgpadmin.view.partialRootPath}
+		layoutRootPath = {$module.tx_sjshgpadmin.view.layoutRootPath}
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'sjsh_eventmanager_eav'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_sjsheventmanagereav_event">Event</label>
+			<label index="tx_sjsheventmanagereav_event.name">name</label>
+			<label index="tx_sjsheventmanagereav_event.displayname">Display name</label>
+			<label index="tx_sjsheventmanagereav_field">Field</label>
+			<label index="tx_sjsheventmanagereav_field.name">Name</label>
+			<label index="tx_sjsheventmanagereav_event_to_field">Event field relation</label>
+			<label index="tx_sjsheventmanagereav_event_to_field.idfield">Field ID</label>
+			<label index="tx_sjsheventmanagereav_event_to_field.idevent">Event Id</label>
+			<label index="tx_sjsheventmanagereav_Value">Value</label>
+			<label index="tx_sjsheventmanagereav_Value.entity">Entitiy</label>
+			<label index="tx_sjsheventmanagereav_Value.field">Field</label>
+			<label index="tx_sjsheventmanagereav_Value.value">Value</label>
+			<label index="tx_sjsheventmanagereav_entity">Entity</label>
+			<label index="tx_sjsheventmanagereav_entity.name">Name</label>
+			<label index="tt_content.list_type_pi1">Event_EAV</label>
+			<label index="tt_content.list_type_pi2">Registration form EAV</label>
+		</languageKey>
+	</data>
+</T3locallang>

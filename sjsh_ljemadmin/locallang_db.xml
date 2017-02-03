@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'sjsh_ljemadmin'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_sjshljemadmin_aks">aks</label>
+			<label index="tx_sjshljemadmin_aks.sort">sort</label>
+			<label index="tx_sjshljemadmin_aks.u">u</label>
+			<label index="tx_sjshljemadmin_aks.jahrgang">jahrgang</label>
+			<label index="tx_sjshljemadmin_aks.jahrgang2">jahrgang2</label>
+			<label index="tx_sjshljemadmin_aks.runden">runden</label>
+			<label index="tx_sjshljemadmin_aks.modus">modus</label>
+			<label index="tx_sjshljemadmin_aks.staffel">staffel</label>
+			<label index="tx_sjshljemadmin_ergebnisse">ergebnisse</label>
+			<label index="tx_sjshljemadmin_ergebnisse.klasse">klasse</label>
+			<label index="tx_sjshljemadmin_ergebnisse.runde">runde</label>
+			<label index="tx_sjshljemadmin_ergebnisse.tisch">tisch</label>
+			<label index="tx_sjshljemadmin_ergebnisse.id1">id1</label>
+			<label index="tx_sjshljemadmin_ergebnisse.id2">id2</label>
+			<label index="tx_sjshljemadmin_ergebnisse.erg1">erg1</label>
+			<label index="tx_sjshljemadmin_ergebnisse.erg2">erg2</label>
+			<label index="tx_sjshljemadmin_ergebnisse.flag">flag</label>
+			<label index="tx_sjshljemadmin_spieler">spieler</label>
+			<label index="tx_sjshljemadmin_spieler.name">name</label>
+			<label index="tx_sjshljemadmin_spieler.attr">attr</label>
+			<label index="tx_sjshljemadmin_spieler.elo">elo</label>
+			<label index="tx_sjshljemadmin_spieler.dwz">dwz</label>
+			<label index="tx_sjshljemadmin_spieler.verein">verein</label>
+			<label index="tx_sjshljemadmin_spieler.jahr">jahr</label>
+			<label index="tx_sjshljemadmin_spieler.foto">foto</label>
+			<label index="tx_sjshljemadmin_spieler.rang">rang</label>
+			<label index="tx_sjshljemadmin_spieler.punkte">punkte</label>
+			<label index="tx_sjshljemadmin_spieler.punktebuch">punktebuch</label>
+			<label index="tx_sjshljemadmin_spieler.buch">buch</label>
+			<label index="tx_sjshljemadmin_spieler.soberg">soberg</label>
+			<label index="tx_sjshljemadmin_spieler.buchsum">buchsum</label>
+			<label index="tx_sjshljemadmin_spieler.s">s</label>
+			<label index="tx_sjshljemadmin_spieler.r">r</label>
+			<label index="tx_sjshljemadmin_spieler.v">v</label>
+			<label index="tt_content.list_type_pi1">ergebnisse</label>
+			<label index="tt_content.list_type_pi2">rangliste</label>
+			<label index="tt_content.list_type_pi3">index</label>
+			<label index="tt_content.list_type_pi4">telnehmer</label>
+			<label index="tt_content.list_type_pi5">telnehmerliste</label>
+		</languageKey>
+	</data>
+</T3locallang>

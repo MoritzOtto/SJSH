@@ -1,0 +1,41 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [
+            {
+                "actions": {
+                    "controllerActionCombinations": ""
+                },
+                "description": "GrandPrix-Admin",
+                "key": "gpadmin",
+                "mainModule": "user",
+                "name": "GrandPrix-Admin",
+                "tabLabel": "GrandPrix-Admin"
+            }
+        ],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": ""
+        },
+        "extensionKey": "sjshgpadmin",
+        "name": "SJSH",
+        "originalExtensionKey": "",
+        "persons": [],
+        "plugins": [],
+        "vendorName": "SJSH"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2015-06-19 08:10",
+        "extension_builder_version": "6.2.0",
+        "be_user": " (1)"
+    }
+}

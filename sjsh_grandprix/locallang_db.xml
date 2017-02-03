@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'sjsh_grandprix'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_sjshgrandprix_gp_AK">AgeClasses</label>
+			<label index="tx_sjshgrandprix_gp_AK.ak_name">Name</label>
+			<label index="tx_sjshgrandprix_gp_Punkte">Points</label>
+			<label index="tx_sjshgrandprix_gp_Punkte.spieler_id">Player</label>
+			<label index="tx_sjshgrandprix_gp_Punkte.turnier_id">Tournament</label>
+			<label index="tx_sjshgrandprix_gp_Punkte.punkte">Points</label>
+			<label index="tx_sjshgrandprix_gp_Spieler">Player</label>
+			<label index="tx_sjshgrandprix_gp_Spieler.spieler_name">Last Name</label>
+			<label index="tx_sjshgrandprix_gp_Spieler.spieler_vorname">First Name</label>
+			<label index="tx_sjshgrandprix_gp_Spieler.verein_id">Club</label>
+			<label index="tx_sjshgrandprix_gp_Turnier">Tournament</label>
+			<label index="tx_sjshgrandprix_gp_Turnier.turnier_ort">City</label>
+			<label index="tx_sjshgrandprix_gp_Turnier.turnier_veranstalter">Promoter</label>
+			<label index="tx_sjshgrandprix_gp_Turnier.turnier_date">Date</label>
+			<label index="tx_sjshgrandprix_gp_Turnier.turnier_ergebnisse">Results</label>
+			<label index="tx_sjshgrandprix_gp_Turnier.turnier_ausschreibung">Announcement</label>
+			<label index="tx_sjshgrandprix_gp_Verein">Club</label>
+			<label index="tx_sjshgrandprix_gp_Verein.verein_name">Name</label>
+			<label index="tx_sjshgrandprix_gp_AgeClassToPlayer">AgeClassToPlayer</label>
+			<label index="tx_sjshgrandprix_gp_AgeClassToPlayer.gp_ageclass">AgeClass</label>
+			<label index="tx_sjshgrandprix_gp_AgeClassToPlayer.gp_player">Player</label>
+			<label index="tx_sjshgrandprix_gp_AgeClassToPlayer.year">Year</label>
+			<label index="tt_content.list_type_pi1">Overview</label>
+			<label index="tt_content.list_type_pi2">IntermediateResult</label>
+			<label index="tt_content.list_type_pi3">LeaderBoard</label>
+		</languageKey>
+	</data>
+</T3locallang>

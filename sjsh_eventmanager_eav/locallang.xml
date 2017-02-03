@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'sjsh_eventmanager_eav'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Event_EAV</label>
+			<label index="pi1_plus_wiz_description">An SJSH event</label>
+		</languageKey>
+	</data>
+</T3locallang>
